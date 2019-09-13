@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Mark's Dailey Journal</title>
-    <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
 </head>
 
-<header><h1 data-text="Dailey Journal"><span>Dailey Journal</span></h1></header>
+<header><h1 data-text="Daily Journal"><span>Daily Journal</span></h1></header>
 
-<body>
+<body class="kenburns-left">
         
     <div class="flex-container">
     <div class="form">
@@ -32,7 +32,7 @@
         </fieldset>
 
         <fieldset>
-                <label for="journalEntry">Journal Entry</label>
+                <label id="entryBox" for="journalEntry">Journal Entry</label>
                 <textarea rows="10" cols="40"name="journal entry"></textarea>
         </fieldset>
 
@@ -48,14 +48,14 @@
                     <option value="WTF">WTF</option>
                 </select>
         </fieldset>
+        
+        <button type="button" id="submit">Submit</button>
     </form>
     </div>
     <div class="entryContainer"></div>
     </div>
     </div>
     <footer> &copy; Cohort 35 - 2019 - 2020</footer> 
-        <script src="js/main.js">
-        </script>
-        <script src="js/journal.js"></script>
+    <script type="module" src="js/main.js"></script>
 </body>
 </html>
