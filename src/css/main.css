@@ -121,13 +121,62 @@ body {
 fieldset {
   border: none;   
 }
-
+.entryContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
 .entryBackground {
-  background: #1da9cc;
+  position:relative;
+  width:210px;
+  margin:50px;
+  padding:40px;
+  color:#fff;
+  font: 20px'Rosario', sans-serif;
+  background: #58a;
+  background: linear-gradient(to left bottom, transparent 50%, rgba(0,0,0,.4) 0) no-repeat 100% 0 / 2em 2em,
+    linear-gradient(-135deg, transparent 1.5em, #58a 0);
+  
+  -webkit-filter: drop-shadow(20px 30px rgba(0,0,0,0.1));
+  filter: drop-shadow(20px 30px rgba(0,0,0,0.1));
+}
+.entryBackground::before{
+  content: ' ';
+  position:absolute;
+  top:2em; 
+  right:0;
+  background: linear-gradient(to left bottom, transparent 50%, rgba(0,0,0,0.1) 0) 100% 0 no-repeat;
+  width: 2em;
+  height:2em;
+  transform: rotate(180deg)
+
+
+  /* background: #1da9cc;
   border-radius: 21px;
   border: 5px groove;
+  margin-top: 20px;
+  margin-bottom: 20px; */
 }
 
  footer {
     text-align: center;
 } 
+html {
+  margin: 40px auto;
+  text-align: center;
+}
+	.btn-linkedin {
+	  background: #0E76A8;
+	  border-radius: 0;
+	  color: #fff;
+	  border-width: 1px;
+	  border-style: solid;
+	  border-color: #084461;
+	}
+	.btn-linkedin:link, .btn-linkedin:visited {
+	  color: #fff;
+	}
+	.btn-linkedin:active, .btn-linkedin:hover {
+	  background: #084461;
+	  color: #fff;
+	}

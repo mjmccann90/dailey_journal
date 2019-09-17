@@ -8,54 +8,53 @@
     <link rel="stylesheet" type="text/css" href="/css/main.css">
 </head>
 
-<header><h1 data-text="Daily Journal"><span>Daily Journal</span></h1></header>
-
-<body class="kenburns-left">
+<body>
         
+    <header><h1 data-text="Daily Journal"><span>Daily Journal</span></h1></header>
     <div class="flex-container">
     <div class="form">
 
     <form>
+        <h2>
         <fieldset>
-                <label for="journalDate">Date of journal</label>
-                <input type="date" name="date" id="">
-        </fieldset>
+                <label for="journalDate">Date of journal:</label>
+                <input type="date" name="date" id="journalDate">
+        </fieldset></h2>
 
+        <h2>
         <fieldset>
-                <label for="dateOfEntry">Date of Entry</label>
-                <input type="date" name="date" id="">
-        </fieldset>
+                <label for="conceptsCovered">Concepts covered:</label>
+                <input type="text" name="concepts covered" id="journalConcepts" value="concepts covered">
+        </fieldset></h2>
 
+        <h2>
         <fieldset>
-                <label for="conceptsCovered">Concepts covered</label>
-                <input type="text" name="concepts covered" id="" value="concepts covered">
-        </fieldset>
+                <label for="journalEntry">Journal Entry:</label>
+                <textarea id="journalEntry" rows="10" cols="40"name="journal entry"></textarea>
+        </fieldset></h2>
 
+        <h2>
         <fieldset>
-                <label id="entryBox" for="journalEntry">Journal Entry</label>
-                <textarea rows="10" cols="40"name="journal entry"></textarea>
-        </fieldset>
-
-        <fieldset>
-                <label for="moodForTheDay">Mood for the day</label>
-                <select>
+                <label for="moodForTheDay">Mood for the day:</label>
+                <select id="journalMood">
                     <option value="moods">Moods</option>
-                    <option value="sad">Sad</option>
-                    <option value="happy">Happy</option>
-                    <option value="excited">Excited</option>
-                    <option value="frustrated">Frustrated</option>
-                    <option value="confused">Confused</option>
-                    <option value="WTF">WTF</option>
+                    <option value="sad">😢Sad</option>
+                    <option value="happy">😊Happy</option>
+                    <option value="excited">😁Excited</option>
+                    <option value="frustrated">😱Frustrated</option>
+                    <option value="confused">😳Confused</option>
+                    <option value="WTF">🤯WTF</option>
                 </select>
-        </fieldset>
+        </fieldset></h2>
         
-        <button type="button" id="submit">Submit</button>
+        <div><button type="button" id="submitButton">Submit</button></div>
     </form>
     </div>
     <div class="entryContainer"></div>
     </div>
-    </div>
-    <footer> &copy; Cohort 35 - 2019 - 2020</footer> 
+    <footer> &copy; Cohort 35 - 2019 - 2020
+        <a href="http://www.linkedin.com/in/markjmccann12" target="blank" title="LinkedIn" class="btn btn-linkedin btn-lg"><i class="fa fa-linkedin fa-fw"></i> LinkedIn</a>
+    </footer> 
     <script type="module" src="js/main.js"></script>
 </body>
 </html>

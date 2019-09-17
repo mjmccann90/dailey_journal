@@ -1,0 +1,25 @@
+{
+  "entries": [
+    {
+      "date": "8/26/19",
+      "concepts": "objects",
+      "content": "Having difficultly grasping some of the concepts.",
+      "mood": " confused",
+      "id": 1
+    },
+    {
+      "date": "8/27/19",
+      "concepts": "functions and logic",
+      "content": "Not completely confident in what we have learned",
+      "mood": " frustrated",
+      "id": 2
+    },
+    {
+      "date": "2019-09-17",
+      "concepts": "CSS Variables",
+      "content": "Learned about CSS Variables and a GREAT deal more!!",
+      "mood": "excited",
+      "id": 3
+    }
+  ]
+}
