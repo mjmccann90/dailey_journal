@@ -1,3 +1,4 @@
+/* Controls the container for fieldset */
 .flex-container {
     display: flex;
     justify-content: center;
@@ -7,7 +8,7 @@
     margin: 2% 10% 10% 10%;
   
 }
-
+/* Header styling */
 header {
   display: flex;
   justify-content: center;
@@ -16,6 +17,7 @@ header {
   overflow: hidden;
 }
 
+/* Header styling continued */
 h1 {
   position: relative;
   font-family: 'Montserrat', Arial, sans-serif;
@@ -30,7 +32,7 @@ h1 {
   filter: blur(0.007em);
   animation: shake 2.5s linear forwards;
 }
-
+/* Header styling continued */
 h1 span {
   position: absolute;
   top: 0;
@@ -39,7 +41,7 @@ h1 span {
   -webkit-clip-path: polygon(10% 0%, 44% 0%, 70% 100%, 55% 100%);
           clip-path: polygon(10% 0%, 44% 0%, 70% 100%, 55% 100%);
 }
-
+/* Header styling continued */
 h1::before,
 h1::after {
   content: attr(data-text);
@@ -47,19 +49,19 @@ h1::after {
   top: 0;
   left: 0;
 }
-
+/* Header styling continued */
 h1::before {
   animation: crack1 2.5s linear forwards;
   -webkit-clip-path: polygon(0% 0%, 10% 0%, 55% 100%, 0% 100%);
           clip-path: polygon(0% 0%, 10% 0%, 55% 100%, 0% 100%);
 }
-
+/* Header styling continued */
 h1::after {
   animation: crack2 2.5s linear forwards;
   -webkit-clip-path: polygon(44% 0%, 100% 0%, 100% 100%, 70% 100%);
           clip-path: polygon(44% 0%, 100% 0%, 100% 100%, 70% 100%);
 }
-
+/* Header styling continued. Controls shake. */
 @keyframes shake {
   5%, 15%, 25%, 35%, 55%, 65%, 75%, 95% {
       filter: blur(0.018em);
@@ -86,7 +88,7 @@ h1::after {
       transform: translate(0) rotate(-0.5deg);
   }
 }
-
+/* Header styling continued. Controls first crack that starts on daily and ends on journal */
 @keyframes crack1 {
   0%, 95% {
       transform: translate(-50%, -50%);
@@ -96,7 +98,7 @@ h1::after {
       transform: translate(-51%, -48%);
   }
 }
-
+/* Header styling continued. Controls crack on journal */
 @keyframes crack2 {
   0%, 95% {
       transform: translate(-50%, -50%);
@@ -106,7 +108,7 @@ h1::after {
       transform: translate(-49%, -53%);
   }
 }
-
+/* Background styling */
 body {
   background: 
   linear-gradient(135deg, black 25%, transparent 25%) -50px 0,
@@ -118,14 +120,17 @@ body {
   text-align: center;
   color: whitesmoke;
 }
+/* Fieldset styling */
 fieldset {
   border: none;   
 }
+/* Code for entry styling */
 .entryContainer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
+/* Code for entry styling continued */
 .entryBackground {
   position:relative;
   width:210px;
@@ -140,6 +145,7 @@ fieldset {
   -webkit-filter: drop-shadow(20px 30px rgba(0,0,0,0.1));
   filter: drop-shadow(20px 30px rgba(0,0,0,0.1));
 }
+/* Code for entry styling continued */
 .entryBackground::before{
   content: ' ';
   position:absolute;
@@ -149,18 +155,12 @@ fieldset {
   width: 2em;
   height:2em;
   transform: rotate(180deg)
-
-
-  /* background: #1da9cc;
-  border-radius: 21px;
-  border: 5px groove;
-  margin-top: 20px;
-  margin-bottom: 20px; */
 }
-
+/* Code for footer */
  footer {
     text-align: center;
 } 
+/* Code for LinkedIn link */
 html {
   margin: 40px auto;
   text-align: center;
