@@ -4,14 +4,14 @@
       "date": "8/26/19",
       "concepts": "objects",
       "content": "Having difficultly grasping some of the concepts.",
-      "mood": " confused",
+      "mood": "confused",
       "id": 1
     },
     {
       "date": "8/27/19",
       "concepts": "functions and logic",
       "content": "Not completely confident in what we have learned",
-      "mood": " frustrated",
+      "mood": "frustrated",
       "id": 2
     },
     {
@@ -20,6 +20,55 @@
       "content": "Learned about CSS Variables and a GREAT deal more!!",
       "mood": "excited",
       "id": 3
+    },
+    {
+      "date": "2019-09-26",
+      "concepts": "Presented nutshell",
+      "content": "presented nutshell",
+      "mood": "happy",
+      "id": 4
+    },
+    {
+      "date": "",
+      "concepts": "concepts covered",
+      "content": "",
+      "mood": "moods",
+      "id": 5
+    },
+    {
+      "date": "",
+      "concepts": "",
+      "content": "",
+      "mood": "",
+      "id": 6
+    },
+    {
+      "date": "",
+      "concepts": "concepts covered",
+      "content": "",
+      "mood": "moods",
+      "id": 7
+    },
+    {
+      "date": "",
+      "concepts": "",
+      "content": "",
+      "mood": "",
+      "id": 8
+    },
+    {
+      "date": "",
+      "concepts": "",
+      "content": "",
+      "mood": "",
+      "id": 9
+    },
+    {
+      "date": "",
+      "concepts": "",
+      "content": "",
+      "mood": "",
+      "id": 10
     }
   ]
 }

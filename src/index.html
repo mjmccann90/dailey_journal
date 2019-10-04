@@ -47,15 +47,28 @@
                 </select>
         </fieldset></h2>
         <!-- Submit button to save entry -->
-        <div><button type="button" id="submitButton">Submit</button></div>
+        <div><button type="button" id="submitButton">Submit New Entry</button></div>
     </form>
+<!-- Mood filter -->
+        <div id="moodFilter">
+            <select id="journalMoodFilter">
+                    <option disabled selected value="moods">Moods</option>
+                    <option value="sad">😢Sad</option>
+                    <option value="happy">😊Happy</option>
+                    <option value="excited">😁Excited</option>
+                    <option value="frustrated">😱Frustrated</option>
+                    <option value="confused">😳Confused</option>
+                    <option value="WTF">🤯WTF</option>
+            </select>
+        </div>
+    <div><button type="button" id="resetButton">Reset Entries</button></div>
     </div>
     <!-- Journal entry card -->
     <div class="entryContainer"></div>
     </div>
     <footer> &copy; Cohort 35 - 2019 - 2020
         <a href="http://www.linkedin.com/in/markjmccann12" target="blank" title="LinkedIn" class="btn btn-linkedin btn-lg"><i class="fa fa-linkedin fa-fw"></i> LinkedIn</a>
-    </footer> 
+    </footer>
     <script type="module" src="js/main.js"></script>
 </body>
 </html>

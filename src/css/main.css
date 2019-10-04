@@ -6,7 +6,7 @@
     border-width: 5px;
     padding: 5%;
     margin: 2% 10% 10% 10%;
-  
+
 }
 /* Header styling */
 header {
@@ -110,11 +110,11 @@ h1::after {
 }
 /* Background styling */
 body {
-  background: 
+  background:
   linear-gradient(135deg, black 25%, transparent 25%) -50px 0,
   linear-gradient(225deg, black 25%, transparent 25%) -50px 0,
   linear-gradient(315deg, black 25%, transparent 25%),
-  linear-gradient(45deg, black 25%, transparent 25%);	
+  linear-gradient(45deg, black 25%, transparent 25%);
   background-size: 2em 2em;
   background-color: #232323;
   text-align: center;
@@ -122,7 +122,7 @@ body {
 }
 /* Fieldset styling */
 fieldset {
-  border: none;   
+  border: none;
 }
 /* Code for entry styling */
 .entryContainer {
@@ -141,7 +141,7 @@ fieldset {
   background: #58a;
   background: linear-gradient(to left bottom, transparent 50%, rgba(0,0,0,.4) 0) no-repeat 100% 0 / 2em 2em,
     linear-gradient(-135deg, transparent 1.5em, #58a 0);
-  
+
   -webkit-filter: drop-shadow(20px 30px rgba(0,0,0,0.1));
   filter: drop-shadow(20px 30px rgba(0,0,0,0.1));
 }
@@ -149,17 +149,20 @@ fieldset {
 .entryBackground::before{
   content: ' ';
   position:absolute;
-  top:2em; 
+  top:2em;
   right:0;
   background: linear-gradient(to left bottom, transparent 50%, rgba(0,0,0,0.1) 0) 100% 0 no-repeat;
   width: 2em;
   height:2em;
   transform: rotate(180deg)
 }
+#submitButton {
+  margin-bottom: 50px;
+}
 /* Code for footer */
  footer {
     text-align: center;
-} 
+}
 /* Code for LinkedIn link */
 html {
   margin: 40px auto;

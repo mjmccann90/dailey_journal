@@ -3,8 +3,7 @@ const webComponent = {
 
 
 
-    entryHTML: (item)=>{ 
-    
+    entryHTML: (item)=>{
     return `
         <div class ="entryBackground">
             <h2>Journal Date: ${item.date}</h2>
@@ -14,6 +13,6 @@ const webComponent = {
         </div>`
 
     }
-} 
+}
 
 export default webComponent
